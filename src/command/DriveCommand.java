@@ -1,4 +1,8 @@
-public class DriveCommand implements Command{
+package command;
+
+import model.Car;
+
+public class DriveCommand implements Command {
     private Car car;
     public DriveCommand( Car car){
         this.car = car;

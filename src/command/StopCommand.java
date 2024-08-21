@@ -1,4 +1,8 @@
-public class StopCommand implements Command{
+package command;
+
+import model.Car;
+
+public class StopCommand implements Command {
     private Car car;
     public StopCommand( Car car){
         this.car = car;

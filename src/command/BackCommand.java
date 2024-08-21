@@ -1,4 +1,8 @@
-public class BackCommand implements Command{
+package command;
+
+import model.Car;
+
+public class BackCommand implements Command {
     private Car car;
     public BackCommand( Car car){
         this.car = car;
